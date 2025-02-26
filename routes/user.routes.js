@@ -1,7 +1,7 @@
 /** @format */
 
 import { Router } from "express";
-import { getUser, getUsers } from "../controllers/user.controllers.js"
+import { getUser, getUsers } from "../controllers/user.controller.js"
 import authorize from "../middlewares/auth.middleware.js";
 
 const userRouter = Router();

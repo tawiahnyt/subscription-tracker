@@ -1,7 +1,7 @@
 /** @format */
 
 import { Router } from "express";
-import { signIn, signUp } from "../controllers/auth.controllers.js";
+import { signIn, signUp } from "../controllers/auth.controller.js";
 
 const authRouter = Router();
 
